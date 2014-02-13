@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Login | Formulario de registro</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">   
+    
+    <!-- Styles -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+	<link href="../css/signin.css" rel="stylesheet" type="text/css">   
+    
+    <!-- Javascript -->
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script src="../js/bootstrap.js"></script>
+
+
+
+</head>
+
+<body>
+
+<div class="account-container login">
+	
+	<div class="content clearfix">
+		
+		<form class="form-horizontal" id="formulario">
+		
+			<div class="col-md-12"><img src="../images/logo.png" width="100%" /></div>	
+			
+			<div class="login-fields">
+				
+				<p>Entra con tu cuenta registrada:</p>
+				
+				<div class="field">
+					<label for="username">Usuario:</label>
+					<input type="text" id="username" name="UserName" value="" placeholder="Usuario" class="login form-control username-field" />
+				</div> <!-- /field -->
+				
+				<div class="field">
+					<label for="password">Contraseña:</label>
+					<input type="password" id="password" name="txtPassword" value="" placeholder="Contraseña" class="login form-control password-field"/>
+				</div> <!-- /password -->
+				
+			</div> <!-- /login-fields -->
+			
+			<div class="login-actions">
+				
+				<span class="login-checkbox">
+					<input id="Field" name="Field" type="checkbox" class="field login-checkbox" value="First Choice" tabindex="4" />
+					<label class="choice" for="Field">No cerrar sesión</label>
+				</span>
+									
+				<button class="button btn btn-primary btn-large">Iniciar Sesión</button>
+				
+			</div> <!-- .actions -->
+			
+			<div class="login-social">
+				<p>Entra con red social:</p>
+				
+				<div class="twitter">
+					<a href="#" class="btn_1">Login with Twitter</a>				
+				</div>
+				
+				<div class="fb">
+					<a href="#" class="btn_2">Login with Facebook</a>				
+				</div>
+			</div>
+			
+		</form>
+		
+	</div> <!-- /content -->
+	
+</div> <!-- /account-container -->
+
+
+<!-- Text Under Box -->
+<div class="login-extra">
+	¿No tienes una cuenta? <a href="registro.html">Registrate</a><br/>
+	Recordar <a href="forgetpass.html">Password</a>
+</div> <!-- /login-extra -->
+<script src="../js/jquery.validate.js"></script>
+    <script src="../js/formulario.js"></script>
+</body>
+</html>
